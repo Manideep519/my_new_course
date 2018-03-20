@@ -9,7 +9,6 @@
 		margin-right: -100px;
 	}
 
-
 	&--gutters > div{
 		padding-right: 65px;
 	}
@@ -51,6 +50,69 @@
 		}
 	}
 
+	@mixin atLarge{
 
+		&__b-margin-until-large{
+				margin-bottom:0;
+			}
+
+		&__large-4{
+			float: left;
+			width:33.33%;
+		}
+
+		&__large-4--larger{
+			width: 40%;
+		}
+
+		&__large-6{
+			float: left;
+			width: 50%;
+		}
+
+		&__large-8{
+			float: left;
+			width: 66.66%
+		}
+		&__large-8--smaller{
+			width: 60%;
+		}
+	}
+
+
+	/*Testimonial section*/
+
+	&--t-padding{
+		padding-top: 80px;
+	}
+
+	&--gutters-small{
+		margin-right: -45px;
+	}
+	
+	&--gutters-small > div{
+		padding-right: 45px;
+	}
+
+
+	/*Begin equal Height Rules*/
+	&--equal-height-at-medium{
+		@mixin atMedium{
+		display: flex;
+		}
+
+		& > div{
+			display: flex;
+		}
+	}
+	&--equal-height-at-large{
+		@mixin atLarge{
+		display: flex;
+		}
+
+		& > div{
+			display: flex;
+		}
+	}
 
 }
