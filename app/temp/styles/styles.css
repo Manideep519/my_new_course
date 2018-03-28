@@ -588,9 +588,6 @@ a{
 .wrapper--no-padding-until-medium{
 	padding-left: 0;
 	padding-right: 0;
-
-
-
 }
 
 @media (min-width: 800px){
@@ -598,18 +595,12 @@ a{
 .wrapper--no-padding-until-medium{
 		padding-left: 18px;
 		padding-right: 18px
-
-
-
 }
 	}
 
 .wrapper--no-padding-until-large{
 	padding-left: 0;
 	padding-right: 0;
-
-
-
 }
 
 @media (min-width: 1010px){
@@ -617,9 +608,6 @@ a{
 .wrapper--no-padding-until-large{
 		padding-left: 18px;
 		padding-right: 18px
-
-
-
 }
 	}
 
@@ -1001,6 +989,28 @@ a{
 
 .testimonial--last{
 		margin-bottom: 0;
+	}
+
+.site-footer{
+	background-color: #2f5572;
+	color: #FFF;
+	padding: .5rem 0;
+	text-align:center;
+}
+
+.site-footer__text{
+		display:block;
+		margin-bottom: 1rem;
+		font-weight: 100;
+	}
+
+@media (min-width: 800px){
+
+.site-footer__text{
+			display: inline;
+			margin-bottom: 0;
+			margin-right: 1.4rem
+	}
 	}
 
 
