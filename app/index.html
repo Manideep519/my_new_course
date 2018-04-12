@@ -3,6 +3,8 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <title>Clear View Escapes</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes,honeymoon,holidays">
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
@@ -10,21 +12,33 @@
   <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
 </head>
 <body>
-  <header>
-    <img src="assets/images/icons/clear-view-escapes.svg">
-    <a href="#" class="btn">Get in Touch</a>
-    <nav>
-      <ul>
-        <li><a href="#our-beginning">Our Beginning</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo">
+        <img src="assets/images/icons/clear-view-escapes.svg">
+      </div>
+
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+      <div class="site-header__menu-content">
+        <div class="site-header__btn-container">
+          <a href="#" class="btn">Get in Touch</a>
+        </div>
+        <nav class="primary-nav primary-nav--pull-right">
+          <ul>
+            <li><a href="#our-beginning">Our Beginning</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <div class="large-hero">
     <picture>
-      <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width:1366px)">
+      <source srcset="assets/images/hero--large.jpg 1920w, assets/images/hero--large-hi-dpi.jpg 3840w" media="(min-width:1380px)">
       <source srcset="assets/images/hero--medium.jpg 1380w, assets/images/hero--medium-hi-dpi.jpg 2760w" media="(min-width:990px)">
       <source srcset="assets/images/hero--small.jpg 990w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width:640px)">
       <img srcset="assets/images/hero--smaller.jpg 640w, assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Coastal view of ocean and mountains" class="large-hero__image">
@@ -33,7 +47,7 @@
     <div class="large-hero__text-content">
       <div class="wrapper">
       <h1 class="large-hero__title">Your clarity.</h1>
-      <h2 class="large-hero__sub-title">One trip away.</h2>
+      <h2 class="large-hero__subtitle">One trip away.</h2>
       <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
       <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
       </div>
@@ -156,8 +170,9 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; Manideep-2018 Clear View Escapes. All rights reserved.</span><a href="#" class="btn btn--orange">Get in Touch</a></p>
+      <p><span class="site-footer__text">Copyright &copy; <a href="https://www.linkedin.com/in/manideep-yadav-b37335154/" target="_blank">Manideep-2018</a> Clear View Escapes. All rights reserved.</span><a href="#" class="btn btn--orange">Get in Touch</a></p>
     </div>
   </footer>
+  <script src="/temp/scripts/index.js"></script>
 </body>
 </html>

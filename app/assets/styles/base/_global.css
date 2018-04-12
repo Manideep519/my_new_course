@@ -12,6 +12,10 @@ a{
 	color: $mainOrange;
 }
 
+footer a{
+	color: #FFF;
+}
+
 *{
 	box-sizing: border-box;
 }
