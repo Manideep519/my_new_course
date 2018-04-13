@@ -564,8 +564,15 @@ footer a{
 	}
 
 .btn--large {
-		padding: 1.1rem 1.9rem;
+		padding: .5rem 1rem;
 	}
+
+@media (min-width: 319px){
+
+.btn--large {
+			padding: 1.1rem 1.9rem
+	}
+		}
 
 @media (min-width: 530px){
 
